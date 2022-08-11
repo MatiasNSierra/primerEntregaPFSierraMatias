@@ -3,6 +3,8 @@ import { useState } from 'react'
 
 const Counter = ({cantidad, agregar}) => {
 
+   
+    
     const [count, setCount] = useState(1)
 
     const incrementar = () => {
@@ -28,6 +30,7 @@ const Counter = ({cantidad, agregar}) => {
             </div>
 
             <button class="botonCarrito" onClick={() => agregar(count)}>Agregar al Carrito</button>
+            
          </div>
     )
 }

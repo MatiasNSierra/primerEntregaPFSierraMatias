@@ -1,27 +1,29 @@
 
 import './App.css';
-// import { useState } from 'react'
+import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-// import Counter from './components/Counter/Counter'
+import Counter from './components/Counter/Counter'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
 
  
-  // const paraAgregar = (quantity) => {     {/* <button onClick={() => setPage('detail')}>detalle</button> */}
-  //   console.log(`Se agrego: ${quantity}`)
-  // }
-
+  // const paraAgregar = (quantity) => {     
+    //   console.log(`Se agrego: ${quantity}`)
+    // }
+    
+    {/* <button onClick={() => setPage('detail')}>detalle</button> */}
   // const [paginas, setPaginas] = useState  ({ruta: 'lista', id: '1'})
   
 
 
   return (
     <div className="App">
-    
+        
       <BrowserRouter>
       <Navbar />
       <Routes>
